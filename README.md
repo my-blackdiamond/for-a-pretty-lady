@@ -1,6 +1,8 @@
-# A última vigília — edição com criptograma
+# for-a-pretty-lady
 
-Jogo privado em português, com diálogos de fantasia, combate com dados, criptograma no portão e carta final. O projeto contém conteúdo pessoal: mantenha este repositório privado.
+A última vigília — edição com criptograma
+
+Jogo pessoal em português, com diálogos de fantasia, combate com dados, criptograma no portão e carta final. Publicação temporária autorizada pelo autor.
 
 ## Executar
 
@@ -28,7 +30,7 @@ O progresso fica no navegador, separado da versão anterior. Carregamento de 10 
 
 ## Privacidade e publicação
 
-Este repositório não ativa GitHub Pages nem contém workflow de publicação. A pedido do autor, o site não será publicado publicamente. Nunca confunda repositório privado com hospedagem privada.
+O site é publicado temporariamente no GitHub Pages a partir da branch gh-pages. Para tirá-lo do ar: Settings → Pages → Unpublish site. Depois disso, o repositório pode voltar a ser privado em Settings → General → Change visibility. Tornar privado também desativa Pages neste plano gratuito. Cópias já baixadas por terceiros não são removidas.
 
 ## Créditos
 
