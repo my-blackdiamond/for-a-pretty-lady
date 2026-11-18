@@ -1,0 +1,8 @@
+.simple-game .character-art{width:min(38vw,380px);height:min(65dvh,680px);max-height:none;max-width:calc(100% - 100px);aspect-ratio:auto;top:6px;bottom:auto;left:auto;right:18%;object-fit:contain;object-position:top center;mask-image:none;border:0;border-radius:0;background:transparent;box-shadow:none;filter:drop-shadow(0 8px 18px #0009)}
+.simple-game .character-art.left{left:18%;right:auto}
+.simple-game .landscape{background-position:center;filter:brightness(.85)}
+.simple-game .dialogue-shell:before{background:linear-gradient(0deg,#03070bf0,#03070bce 70%,transparent)}
+.simple-game .portrait-only img{background:transparent}
+.party-member img{object-position:center 14%}
+@media(max-width:900px){.simple-game .character-art{height:min(58dvh,560px);right:15%;width:290px}.simple-game .character-art.left{left:15%}}
+@media(max-width:560px){.simple-game .character-art{height:min(43dvh,365px);width:190px;top:12px;right:42px}.simple-game .character-art.left{left:68px;right:auto}.simple-game .landscape{background-position:48% center}}

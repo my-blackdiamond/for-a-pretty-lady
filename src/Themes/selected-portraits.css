@@ -1,0 +1,8 @@
+/* This source is a bust portrait, not a full-body transparent sprite. */
+.character-art{width:auto;height:min(51dvh,540px);aspect-ratio:3/8;right:22%;top:18px;bottom:auto;max-height:none;max-width:calc(100% - 90px);object-fit:contain;object-position:center;mask-image:none;filter:none;border:1px solid #7c674a;border-radius:2px;background:#201817;box-shadow:0 6px 24px #0008}
+.character-art.left{left:19%;right:auto}
+.party-member img{object-fit:cover;object-position:50% 16%;transform:none}
+.portrait-card img{width:120px;height:220px;object-fit:cover;object-position:top}
+@media(min-width:1600px){.character-art{height:min(51dvh,620px);right:24%}.character-art.left{left:24%}}
+@media(max-width:900px){.character-art{height:min(46dvh,440px);right:18%;top:15px;bottom:auto}.character-art.left{left:18%}}
+@media(max-width:560px){.character-art{height:min(39dvh,330px);right:60px;top:14px;bottom:auto;max-height:none}.character-art.left{left:75px;right:auto}}

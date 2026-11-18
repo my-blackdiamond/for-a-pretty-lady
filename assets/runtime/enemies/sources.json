@@ -1,0 +1,14 @@
+{
+  "skeletons": {
+    "source": "https://bg3.wiki/wiki/Entombed_Warrior",
+    "image": "https://bg3.wiki/w/images/3/3c/Entombed_Warrior_Model.png",
+    "generated": false,
+    "credit": "Baldur’s Gate 3 / Larian Studios; render disponibilizado pela BG3 Wiki"
+  },
+  "warden": {
+    "source": "https://bg3.wiki/wiki/Animated_Armour_(creature)",
+    "image": "https://bg3.wiki/w/images/5/54/Animated_Armour_Model.png",
+    "generated": false,
+    "credit": "Baldur’s Gate 3 / Larian Studios; render disponibilizado pela BG3 Wiki"
+  }
+}

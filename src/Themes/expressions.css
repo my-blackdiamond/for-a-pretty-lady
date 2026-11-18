@@ -1,0 +1,5 @@
+.simple-game .character-art.expression-art{width:min(43vw,480px);height:min(54dvh,500px);max-width:calc(100% - 100px);right:13%;top:15px;left:auto;bottom:auto;object-fit:contain;object-position:center;filter:none;mask-image:linear-gradient(#000 0%,#000 88%,transparent);border:0;background:transparent;box-shadow:none}
+.simple-game .character-art.expression-art.left{left:14%;right:auto}
+.simple-game .dialogue-shell{z-index:2}
+@media(max-width:900px){.simple-game .character-art.expression-art{width:370px;height:430px;right:8%}.simple-game .character-art.expression-art.left{left:12%}}
+@media(max-width:560px){.simple-game .character-art.expression-art{width:270px;height:min(40dvh,335px);right:21px;top:12px;max-width:calc(100% - 74px)}.simple-game .character-art.expression-art.left{left:66px;right:auto}}

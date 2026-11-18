@@ -1,0 +1,51 @@
+{
+  "source": "https://baldursgate3.game/",
+  "approval": "Approved by user in this conversation",
+  "generated": false,
+  "characters": {
+    "astarion": {
+      "original": "https://baldursgate3.game/heros/hero-astarion.png",
+      "local": "characters/astarion-official.webp"
+    },
+    "gale": {
+      "original": "https://baldursgate3.game/heros/hero-gale.png",
+      "local": "characters/gale-official.webp"
+    },
+    "shadowheart": {
+      "original": "https://baldursgate3.game/heros/hero-shadowheart.png",
+      "local": "characters/shadowheart-official.webp"
+    },
+    "karlach": {
+      "original": "https://baldursgate3.game/heros/hero-karlach.png",
+      "local": "characters/karlach-official.webp"
+    }
+  },
+  "backgrounds": {
+    "camp": {
+      "original": "https://baldursgate3.game/heros/bg-shadowheart.png",
+      "local": "backgrounds/camp-illustrated.webp"
+    },
+    "journey": {
+      "original": "https://baldursgate3.game/heros/bg-gale.png",
+      "local": "backgrounds/journey-illustrated.webp"
+    },
+    "ruins": {
+      "original": "https://baldursgate3.game/heros/bg-astarion.png",
+      "local": "backgrounds/ruins-illustrated.webp"
+    },
+    "tomb": {
+      "original": "https://baldursgate3.game/heros/bg-karlach.png",
+      "local": "backgrounds/tomb-illustrated.webp"
+    }
+  },
+  "emoticons": {
+    "astariondisapprove": {
+      "original": "https://community.fastly.steamstatic.com/economy/emoticonlarge/astariondisapprove",
+      "local": "emoticons/astariondisapprove.png"
+    },
+    "galelove": {
+      "original": "https://community.fastly.steamstatic.com/economy/emoticonlarge/galelove",
+      "local": "emoticons/galelove.png"
+    }
+  }
+}

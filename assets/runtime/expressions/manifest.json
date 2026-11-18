@@ -1,0 +1,262 @@
+{
+  "generated": false,
+  "processing": "Conventional crop and downsampling only. No upscaling.",
+  "images": [
+    {
+      "character": "astarion",
+      "emotion": "neutral",
+      "file": "ui/expressions/astarion-neutral.webp",
+      "source": "https://image.jeuxvideo.com/medias-crop-1200-675/169477/1694772869-6113-card.jpg",
+      "originalWidth": 1200,
+      "originalHeight": 675,
+      "nativeCrop": {
+        "left": 384,
+        "top": 0,
+        "width": 720,
+        "height": 567
+      },
+      "width": 720,
+      "height": 567
+    },
+    {
+      "character": "astarion",
+      "emotion": "amused",
+      "file": "ui/expressions/astarion-amused.webp",
+      "source": "https://bg3.wiki/w/images/1/1f/Astarion_Epilogue.png",
+      "originalWidth": 2560,
+      "originalHeight": 1440,
+      "nativeCrop": {
+        "left": 1101,
+        "top": 0,
+        "width": 666,
+        "height": 691
+      },
+      "width": 666,
+      "height": 691
+    },
+    {
+      "character": "astarion",
+      "emotion": "thoughtful",
+      "file": "ui/expressions/astarion-thoughtful.webp",
+      "source": "https://bg3.wiki/w/images/d/d1/Astarion_weighs_his_options.png",
+      "originalWidth": 3840,
+      "originalHeight": 2160,
+      "nativeCrop": {
+        "left": 1152,
+        "top": 0,
+        "width": 1882,
+        "height": 1858
+      },
+      "width": 1000,
+      "height": 987
+    },
+    {
+      "character": "astarion",
+      "emotion": "confident",
+      "file": "ui/expressions/astarion-confident.webp",
+      "source": "https://bg3.wiki/w/images/9/91/Astarion_looks_at_the_evil_player.png",
+      "originalWidth": 3840,
+      "originalHeight": 2160,
+      "nativeCrop": {
+        "left": 1498,
+        "top": 0,
+        "width": 1382,
+        "height": 1598
+      },
+      "width": 865,
+      "height": 1000
+    },
+    {
+      "character": "gale",
+      "emotion": "neutral",
+      "file": "ui/expressions/gale-neutral.webp",
+      "source": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A437%2Ccw%3A1125%2Cch%3A1125%2Cq%3A80%2Cw%3A1125/ee9CGqnzKLRqDnumiz9yC6.jpg",
+      "originalWidth": 1125,
+      "originalHeight": 1125,
+      "nativeCrop": {
+        "left": 0,
+        "top": 0,
+        "width": 1125,
+        "height": 1125
+      },
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "character": "gale",
+      "emotion": "serious",
+      "file": "ui/expressions/gale-serious.webp",
+      "source": "https://cdn.mos.cms.futurecdn.net/DmQFKZ7X8tDYFouJCGnddG-1920-80.png",
+      "originalWidth": 1920,
+      "originalHeight": 1080,
+      "nativeCrop": {
+        "left": 787,
+        "top": 0,
+        "width": 1056,
+        "height": 1015
+      },
+      "width": 1000,
+      "height": 961
+    },
+    {
+      "character": "gale",
+      "emotion": "amused",
+      "file": "ui/expressions/gale-amused.webp",
+      "source": "https://img.youtube.com/vi/_vaIWbAq6do/maxresdefault.jpg",
+      "originalWidth": 1280,
+      "originalHeight": 720,
+      "nativeCrop": {
+        "left": 397,
+        "top": 0,
+        "width": 730,
+        "height": 648
+      },
+      "width": 730,
+      "height": 648
+    },
+    {
+      "character": "gale",
+      "emotion": "warm",
+      "file": "ui/expressions/gale-warm.webp",
+      "source": "https://cdn.mos.cms.futurecdn.net/4bCNEyMoF8GtEyggQSbZtW.jpg",
+      "originalWidth": 2308,
+      "originalHeight": 1298,
+      "nativeCrop": {
+        "left": 415,
+        "top": 0,
+        "width": 1269,
+        "height": 1233
+      },
+      "width": 1000,
+      "height": 972
+    },
+    {
+      "character": "shadowheart",
+      "emotion": "neutral",
+      "file": "ui/expressions/shadowheart-neutral.webp",
+      "source": "https://bg3.wiki/w/images/f/f0/Shadowheart-Romance-contemplating.png",
+      "originalWidth": 3200,
+      "originalHeight": 1990,
+      "nativeCrop": {
+        "left": 960,
+        "top": 0,
+        "width": 1568,
+        "height": 1871
+      },
+      "width": 838,
+      "height": 1000
+    },
+    {
+      "character": "shadowheart",
+      "emotion": "thoughtful",
+      "file": "ui/expressions/shadowheart-thoughtful.webp",
+      "source": "https://bg3.wiki/w/images/f/fe/Shadow_doubt_3.png",
+      "originalWidth": 1594,
+      "originalHeight": 1959,
+      "nativeCrop": {
+        "left": 271,
+        "top": 0,
+        "width": 1084,
+        "height": 1254
+      },
+      "width": 864,
+      "height": 1000
+    },
+    {
+      "character": "shadowheart",
+      "emotion": "angry",
+      "file": "ui/expressions/shadowheart-angry.webp",
+      "source": "https://bg3.wiki/w/images/f/f3/Shadowheart_-_ready_to_kill_Laezel.png",
+      "originalWidth": 3191,
+      "originalHeight": 1993,
+      "nativeCrop": {
+        "left": 1468,
+        "top": 40,
+        "width": 1436,
+        "height": 1794
+      },
+      "width": 800,
+      "height": 1000
+    },
+    {
+      "character": "shadowheart",
+      "emotion": "serious",
+      "file": "ui/expressions/shadowheart-serious.webp",
+      "source": "https://bg3.wiki/w/images/4/4d/Shadowheart_making_peace_with_Laezel.png",
+      "originalWidth": 3840,
+      "originalHeight": 1929,
+      "nativeCrop": {
+        "left": 1382,
+        "top": 77,
+        "width": 1651,
+        "height": 1755
+      },
+      "width": 941,
+      "height": 1000
+    },
+    {
+      "character": "karlach",
+      "emotion": "neutral",
+      "file": "ui/expressions/karlach-neutral.webp",
+      "source": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A420%2Ccw%3A1080%2Cch%3A1080%2Cq%3A80%2Cw%3A1080/zDuXNdfAFNmjBBj4paB95h.jpg",
+      "originalWidth": 1080,
+      "originalHeight": 1080,
+      "nativeCrop": {
+        "left": 54,
+        "top": 22,
+        "width": 994,
+        "height": 1037
+      },
+      "width": 959,
+      "height": 1000
+    },
+    {
+      "character": "karlach",
+      "emotion": "amused",
+      "file": "ui/expressions/karlach-amused.webp",
+      "source": "https://cdn.mos.cms.futurecdn.net/r4Nxy6H2PwuWQCAFXe3nui-1920-80.png",
+      "originalWidth": 1920,
+      "originalHeight": 1080,
+      "nativeCrop": {
+        "left": 902,
+        "top": 0,
+        "width": 941,
+        "height": 1058
+      },
+      "width": 889,
+      "height": 1000
+    },
+    {
+      "character": "karlach",
+      "emotion": "angry",
+      "file": "ui/expressions/karlach-angry.webp",
+      "source": "https://bg3.wiki/w/images/c/c7/Karlach_after_Gortash.png",
+      "originalWidth": 3124,
+      "originalHeight": 1958,
+      "nativeCrop": {
+        "left": 469,
+        "top": 0,
+        "width": 1968,
+        "height": 1919
+      },
+      "width": 1000,
+      "height": 975
+    },
+    {
+      "character": "karlach",
+      "emotion": "excited",
+      "file": "ui/expressions/karlach-excited.webp",
+      "source": "https://imgix.bustle.com/uploads/image/2023/9/6/267797ab-837b-4abf-b780-13a28486952a-2023-09-06-11_27_27-greenshot.png",
+      "originalWidth": 1920,
+      "originalHeight": 1080,
+      "nativeCrop": {
+        "left": 480,
+        "top": 11,
+        "width": 614,
+        "height": 756
+      },
+      "width": 614,
+      "height": 756
+    }
+  ]
+}

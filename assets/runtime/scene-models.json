@@ -1,0 +1,39 @@
+{
+  "characters": {
+    "astarion": {
+      "source": "https://bg3.wiki/w/images/7/72/Astarion_Model.png",
+      "local": "characters/astarion-model.webp"
+    },
+    "gale": {
+      "source": "https://bg3.wiki/w/images/a/a6/Gale_Model.png",
+      "local": "characters/gale-model.webp"
+    },
+    "shadowheart": {
+      "source": "https://bg3.wiki/w/images/c/c4/Shadowheart_Model.png",
+      "local": "characters/shadowheart-model.webp"
+    },
+    "karlach": {
+      "source": "https://bg3.wiki/w/images/7/7e/Karlach_Model.png",
+      "local": "characters/karlach-model.webp"
+    }
+  },
+  "backgrounds": {
+    "camp": {
+      "source": "https://bg3.wiki/wiki/Campsite",
+      "local": "backgrounds/camp-scene.webp"
+    },
+    "journey": {
+      "source": "https://bg3.wiki/wiki/Forest",
+      "local": "backgrounds/journey-scene.webp"
+    },
+    "ruins": {
+      "source": "https://bg3.wiki/wiki/Overgrown_Ruins",
+      "local": "backgrounds/ruins-scene.webp"
+    },
+    "tomb": {
+      "source": "https://deltiasgaming.com/how-to-complete-explore-the-ruins-in-quest-baldurs-gate-3/",
+      "local": "backgrounds/tomb-scene.webp"
+    }
+  },
+  "generated": false
+}

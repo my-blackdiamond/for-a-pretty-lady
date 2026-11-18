@@ -1,0 +1,11 @@
+/* Transparent, complete painted sprites. No photographic expression panels. */
+.simple-game .character-art.painted-sprite{width:min(45vw,520px);height:min(57dvh,570px);max-width:calc(100% - 96px);right:12%;left:auto;top:9px;bottom:auto;object-fit:contain;object-position:center top;mask-image:none;border:0;border-radius:0;background:transparent;box-shadow:none;filter:drop-shadow(0 8px 15px #0006)}
+.simple-game .character-art.painted-sprite.left{left:13%;right:auto}
+.simple-game .portrait-only img{height:auto;max-height:67dvh;max-width:100%;object-fit:contain;background:transparent;mask-image:none}
+.simple-game .enemy-art{position:absolute;width:min(46vw,500px);height:min(42dvh,420px);object-fit:contain;top:73px;left:50%;transform:translateX(-50%);pointer-events:none;filter:drop-shadow(0 8px 16px #0008)}
+.simple-game .enemy-plate{z-index:2;top:3px}
+.simple-game .combat-screen{padding-top:400px}
+.simple-game .combat-panel{z-index:3;position:relative}
+.simple-game .enemy-plate .enemy-symbol{display:none}
+@media(max-width:900px){.simple-game .character-art.painted-sprite{height:min(54dvh,540px);width:410px;right:9%}.simple-game .character-art.painted-sprite.left{left:11%}.simple-game .enemy-art{width:360px;height:min(45dvh,390px);top:85px}}
+@media(max-width:560px){.simple-game .character-art.painted-sprite{width:285px;height:min(41dvh,355px);top:10px;right:21px;max-width:calc(100% - 75px)}.simple-game .character-art.painted-sprite.left{left:65px;right:auto}.simple-game .enemy-art{width:240px;height:300px;top:72px}.simple-game .combat-screen{padding-top:355px}.simple-game .combat-panel{padding:14px 7px}}

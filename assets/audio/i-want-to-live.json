@@ -1,0 +1,12 @@
+{
+  "title": "I Want to Live (Instrumental)",
+  "composer": "Borislav Slavov",
+  "source": "https://www.youtube.com/watch?v=Ntb6DX2-jU0",
+  "sourceFile": "i-want-to-live-source.webm",
+  "excerptStart": 30,
+  "excerptEnd": 120,
+  "crossfadeSeconds": 2,
+  "loopSeconds": 88,
+  "credit": "Baldur’s Gate 3 — Wizards of the Coast / Larian Studios",
+  "use": "User-approved local private project"
+}

@@ -1,0 +1,17 @@
+/* Dialogue composition: the portrait has its own space, separate from the text. */
+.simple-game .narrative-stage.dialogue-stage{display:grid;grid-template-rows:minmax(230px,1fr) auto;align-content:end;gap:14px;padding:0 max(8%,90px) 30px;min-height:calc(100dvh - 86px)}
+.scene-figure{position:relative;display:flex;align-items:flex-end;justify-content:flex-end;min-width:0;height:clamp(230px,45dvh,510px);padding-right:12%;pointer-events:none}
+.scene-figure:has(.left){justify-content:flex-start;padding-right:0;padding-left:12%}
+.simple-game .scene-figure .character-art.painted-sprite,.simple-game .scene-figure .character-art.painted-sprite.left{position:static;inset:auto;width:min(100%,500px);height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center bottom;z-index:auto;mask-image:linear-gradient(to bottom,#000 0%,#000 84%,transparent 100%);filter:drop-shadow(0 8px 15px #0006)}
+.simple-game .dialogue-stage .dialogue-shell{align-self:end;min-width:0;background:none;border:0;box-shadow:none;padding:0;isolation:auto}
+.simple-game .dialogue-stage .dialogue-shell:before,.simple-game .dialogue-stage .dialogue-shell:after{display:none;content:none}
+.simple-game .scene-vignette{background:linear-gradient(0deg,#030609ed 0%,#030609a8 23%,#03060930 50%,#03060920 72%,#03060980 100%),radial-gradient(ellipse at 50% 30%,transparent 25%,#01040775 100%)}
+.simple-game .dialogue-stage .dialogue-text{min-height:0;margin-bottom:18px;text-shadow:0 2px 7px #000,0 0 18px #000b}
+.simple-game .dialogue-stage .dialogue-choice{text-shadow:0 2px 7px #000}
+.simple-game .dialogue-stage .speaker-label{margin-bottom:10px}
+@media(min-width:1600px){.simple-game .narrative-stage.dialogue-stage{min-height:calc(100dvh - 86px);padding-bottom:40px}}
+@media(max-width:900px){.simple-game .narrative-stage.dialogue-stage{padding:0 72px 28px;gap:10px}.scene-figure{height:clamp(230px,43dvh,430px);padding-right:4%}.scene-figure:has(.left){padding-left:4%}}
+@media(max-width:560px){.simple-game .narrative-stage.dialogue-stage{padding:0 22px 25px;min-height:calc(100dvh - 76px);grid-template-rows:minmax(235px,1fr) auto;gap:8px}.scene-figure{height:clamp(235px,38dvh,360px);padding:0 0 0 46px;justify-content:center}.scene-figure:has(.left){padding:0 0 0 46px;justify-content:center}.simple-game .scene-figure .character-art.painted-sprite,.simple-game .scene-figure .character-art.painted-sprite.left{width:100%;max-width:330px}.simple-game .dialogue-stage .dialogue-text{font-size:calc(21px * var(--text-scale));line-height:1.45}.simple-game .dialogue-stage .dialogue-choice{font-size:calc(19px * var(--text-scale));padding:9px 3px}}
+/* Explicit column sizing avoids inherited flex alignment shrinking the dialogue track. */
+.simple-game .narrative-stage.dialogue-stage{grid-template-columns:minmax(0,1fr);justify-content:stretch}
+.scene-figure{align-self:end}

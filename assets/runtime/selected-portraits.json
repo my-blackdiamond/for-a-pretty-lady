@@ -1,0 +1,11 @@
+{
+  "source": "User-selected attached image",
+  "generatedInThisStep": false,
+  "processing": "Four equal-width crops; no redrawing",
+  "portraits": {
+    "astarion": "characters/astarion-selected.webp",
+    "gale": "characters/gale-selected.webp",
+    "shadowheart": "characters/shadowheart-selected.webp",
+    "karlach": "characters/karlach-selected.webp"
+  }
+}

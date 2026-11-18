@@ -1,0 +1,16 @@
+/* Layout refinements for the proportions of the approved official artwork. */
+.entry-chibi{width:81px;height:81px;object-fit:contain;object-position:center;border-radius:0;justify-self:center;filter:none;opacity:1;image-rendering:auto}
+@media(max-width:560px){.entry-chibi{width:64px;height:64px}}
+.character-art{width:min(52vw,660px);height:calc(100% - 5px);max-height:740px;right:10%;bottom:60px;object-position:center bottom;mask-image:linear-gradient(to bottom,#000 0%,#000 74%,transparent 100%)}
+.character-art.left{left:10%;right:auto}
+.party-member img{transform:none;object-fit:cover;object-position:50% 12%}
+.landscape{background-color:#090e14;background-position:center 35%;filter:brightness(.85)}
+.scene-vignette{background:linear-gradient(0deg,#030608 0%,#04080cd9 12%,transparent 66%,#020508b0),radial-gradient(ellipse at 50% 30%,transparent 12%,#010407b9 100%)}
+.portrait-card img{object-fit:contain;object-position:center}
+.narrative-stage{min-height:0;padding-top:300px}
+.game-screen{min-height:100dvh;overflow:hidden}
+.camp-tent{display:none}
+.game-bottom{flex-shrink:0}
+@media(min-width:1600px){.character-art{right:15%;max-height:850px}.character-art.left{left:15%}.narrative-stage{min-height:0}}
+@media(max-width:900px){.character-art{height:540px;width:460px;right:0;bottom:140px}.character-art.left{left:5%}.narrative-stage{min-height:0;padding-top:320px}}
+@media(max-width:560px){.character-art{width:340px;height:420px;right:-6px;top:0;bottom:auto;object-position:center top}.character-art.left{left:20px;right:auto}.narrative-stage{min-height:0;padding-top:310px}.combat-screen{padding-top:205px}.chest-screen{padding-top:230px}.party-member img{object-position:56% 12%}.landscape{background-position:46% 25%}.scene-vignette{background:linear-gradient(0deg,#030608 0%,#04080ccc 25%,transparent 70%,#020508c0),radial-gradient(ellipse at 50% 35%,transparent 12%,#0104079c 100%)}}

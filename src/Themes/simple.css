@@ -1,0 +1,17 @@
+.simple-location{font:16px var(--font-title);color:#d4c5a8;letter-spacing:.5px;text-shadow:0 2px 5px #000}
+.simple-game .game-top{padding:20px 28px;align-items:center}
+.simple-game .game-tools .ui-button{border:0;box-shadow:none;background:#05080b66;font:10px var(--font-title);padding:8px 12px}
+.simple-game .game-tools .ui-button:before,.simple-game .game-tools .ui-button:after{display:none}
+.simple-game .narrative-stage{padding-left:9%;padding-right:9%;padding-bottom:35px}
+.simple-game .speaker-label{font-family:var(--font-body);font-size:23px;letter-spacing:0}
+.simple-game .speaker-label:after{display:none}
+.simple-game .dialogue-shell{max-width:960px}
+.simple-game .continue-row .ui-button{min-width:100px;padding:9px 20px;font-family:var(--font-body);font-size:19px;letter-spacing:0;box-shadow:none;background:#11151aba;border-color:#7d6b4c}
+.simple-game .continue-row .ui-button:before,.simple-game .continue-row .ui-button:after{display:none}
+.simple-game .combat-panel{border-top:0;box-shadow:none;padding:18px 12px;background:#05090dd9}
+.simple-game .action-button{box-shadow:none}
+.simple-game .action-button:before,.simple-game .action-button:after{display:none}
+.sr-only{position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden;white-space:nowrap}
+.portrait-only{text-align:center;display:flex;justify-content:center}.portrait-only img{display:block;width:auto;max-width:100%;height:auto;max-height:65dvh;object-fit:contain;object-position:center;mask-image:none;border-radius:2px}
+.simple-game .enemy-symbol{display:none}
+@media(max-width:560px){.simple-game .game-top{padding:16px}.simple-location{font-size:12px;max-width:190px}.simple-game .game-tools{gap:2px}.simple-game .game-tools .ui-button{padding:7px;min-width:36px}.simple-game .narrative-stage{padding-left:21px;padding-right:21px;padding-bottom:25px}.simple-game .speaker-label{font-size:21px}.simple-game .dialogue-text{font-size:21px}.simple-game .dialogue-choice{font-size:19px}.simple-game .character-art{left:auto;right:25px}.simple-game .character-art.left{left:35px;right:auto}}

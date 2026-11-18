@@ -1,0 +1,83 @@
+{
+  "method": "Built-in image generation, individually edited from the user-selected reference",
+  "transparent": true,
+  "framing": "Head to torso for characters",
+  "characters": {
+    "astarion": {
+      "file": "characters/astarion-painted.webp",
+      "width": 1254,
+      "height": 1254,
+      "bounds": {
+        "left": 74,
+        "top": 12,
+        "width": 1109,
+        "height": 1242
+      },
+      "portrait": "characters/astarion-painted-portrait.webp",
+      "avatar": "characters/astarion-painted-avatar.webp"
+    },
+    "gale": {
+      "file": "characters/gale-painted.webp",
+      "width": 1254,
+      "height": 1254,
+      "bounds": {
+        "left": 121,
+        "top": 14,
+        "width": 994,
+        "height": 1240
+      },
+      "portrait": "characters/gale-painted-portrait.webp",
+      "avatar": "characters/gale-painted-avatar.webp"
+    },
+    "shadowheart": {
+      "file": "characters/shadowheart-painted.webp",
+      "width": 1254,
+      "height": 1254,
+      "bounds": {
+        "left": 211,
+        "top": 19,
+        "width": 861,
+        "height": 1235
+      },
+      "portrait": "characters/shadowheart-painted-portrait.webp",
+      "avatar": "characters/shadowheart-painted-avatar.webp"
+    },
+    "karlach": {
+      "file": "characters/karlach-painted.webp",
+      "width": 1254,
+      "height": 1254,
+      "bounds": {
+        "left": 182,
+        "top": 16,
+        "width": 917,
+        "height": 1238
+      },
+      "portrait": "characters/karlach-painted-portrait.webp",
+      "avatar": "characters/karlach-painted-avatar.webp"
+    }
+  },
+  "enemies": {
+    "skeletons": {
+      "file": "enemies/skeletons-painted.webp",
+      "width": 1536,
+      "height": 1024,
+      "bounds": {
+        "left": 286,
+        "top": 21,
+        "width": 949,
+        "height": 976
+      }
+    },
+    "warden": {
+      "file": "enemies/warden-painted.webp",
+      "width": 1024,
+      "height": 1536,
+      "bounds": {
+        "left": 247,
+        "top": 42,
+        "width": 517,
+        "height": 1451
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+const {freshGate}=require('./cryptogram.cjs');
+function randomDie(sides,fill=a=>globalThis.crypto.getRandomValues(a)){if(!Number.isInteger(sides)||sides<2)throw Error('Invalid die');const a=new Uint32Array(1),limit=4294967296-(4294967296%sides);do{fill(a)}while(a[0]>=limit);return a[0]%sides+1}
+function resolve(n,modifier,dc){return {n,modifier,dc,total:n+modifier,critical:n===20?'success':n===1?'failure':null,success:n===20||(n!==1&&n+modifier>=dc)}}
+const ACTIONS=[{id:'dagger',name:'Ataque furtivo',who:'Astarion',skill:'Destreza',modifier:5,dc:12,damage:4,description:'Astarion distrai o inimigo enquanto você procura uma abertura. Destreza +5, CD 12. Causa 4 de dano; 8 em um crítico.'},{id:'magic',name:'Raio arcano',who:'Gale',skill:'Arcanismo',modifier:4,dc:13,damage:5,description:'Canalize a magia com Gale. Arcanismo +4, CD 13. Causa 5 de dano; 10 em um crítico.'},{id:'shield',name:'Investida',who:'Karlach',skill:'Força',modifier:5,dc:14,damage:6,description:'Avance com Karlach. Força +5, CD 14. Causa 6 de dano; 12 em um crítico.'}];
+function hit(combat,result,action){const next={...combat};next.round++;if(result.success){next.hp=Math.max(0,next.hp-action.damage*(result.n===20?2:1));next.misses=0}else{next.misses++;next.vigor=Math.max(0,next.vigor-2)}return next}
+function assist(combat){return {...combat,hp:Math.max(0,combat.hp-3),misses:0,vigor:Math.max(combat.vigor,6),round:combat.round+1}}
+function chestDie(index,fill){if(index<0||index>2)throw Error('Chest already open');return index===2?200:randomDie(199,fill)}
+function fresh(){return {version:2,gate:freshGate(),name:'',scene:'camp',line:0,phase:'entry',history:[],decisions:{},combat:null,selected:null,result:null,chest:[],finalPlayed:false,settings:{volume:.45,muted:false,large:false,reduced:false},savedAt:null}}
+function validate(s){return s?.version===2&&typeof s.name==='string'&&['entry','dialogue','combat','roll','chest','letter','reveal','gate-tutorial','cryptogram'].includes(s.phase)&&Array.isArray(s.history)&&Array.isArray(s.chest)&&s.chest.length<=3}
+module.exports={randomDie,resolve,ACTIONS,hit,assist,chestDie,fresh,validate};
